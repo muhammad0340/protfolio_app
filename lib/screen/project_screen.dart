@@ -25,7 +25,8 @@ class ProjectScreen extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     InkWell(
-                      onTap: () => Navigator.of(context).push(MaterialPageRoute(builder: (context)=>LetsSocializeScreen())),
+                      onTap: () => Navigator.of(context).push(MaterialPageRoute(
+                          builder: (context) => LetsSocializeScreen())),
                       child: Container(
                         width: 160,
                         height: 215,
