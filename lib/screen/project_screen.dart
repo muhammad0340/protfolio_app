@@ -1,3 +1,4 @@
+import 'package:about_me/screen/project%20screen/lets_socialize_project_screen.dart';
 import 'package:flutter/material.dart';
 
 class ProjectScreen extends StatelessWidget {
@@ -23,13 +24,16 @@ class ProjectScreen extends StatelessWidget {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Container(
-                      width: 160,
-                      height: 215,
-                      decoration: BoxDecoration(
-                        color: Colors.red,
-                        image: DecorationImage(
-                          image: AssetImage("assets/aaars.jpg"),
+                    InkWell(
+                      onTap: () => Navigator.of(context).push(MaterialPageRoute(builder: (context)=>LetsSocializeScreen())),
+                      child: Container(
+                        width: 160,
+                        height: 215,
+                        decoration: BoxDecoration(
+                          color: Colors.red,
+                          image: DecorationImage(
+                            image: AssetImage("assets/aaars.jpg"),
+                          ),
                         ),
                       ),
                     ),
