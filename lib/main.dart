@@ -17,10 +17,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home:
-      ProjectScreen(),
-      //SkillsScreen(),
+      //ProjectScreen(),
+     // SkillsScreen(),
       //ContactScreen(),
-      //MyHomePage(),
+      MyHomePage(),
     );
   }
 }

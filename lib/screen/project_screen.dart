@@ -162,10 +162,11 @@ class ProjectScreen extends StatelessWidget {
                               color: Colors.red,
                               border: Border.all(style: BorderStyle.solid),
                               image: DecorationImage(
-                                  image: AssetImage(
-                                    "assets/calculator.jpg",
-                                  ),
-                                  fit: BoxFit.cover),
+                                image: AssetImage(
+                                  "assets/calculator.jpg",
+                                ),
+                                fit: BoxFit.cover,
+                              ),
                             ),
                           ),
                           Positioned(

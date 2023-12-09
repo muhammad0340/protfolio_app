@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 class LetsSocializeApp extends StatelessWidget {
   const LetsSocializeApp({super.key});
 
